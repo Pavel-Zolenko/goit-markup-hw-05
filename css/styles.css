@@ -462,7 +462,6 @@ height: 92px;
 }
 .footer-container {
     display: flex;
-    gap: 70px;
     align-items: baseline;
 }
 .logo-footer {
@@ -576,8 +575,63 @@ fill: white;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #fff;
     cursor: pointer;
+     
+}
+.left {
+    margin-right: 70px;
+}
+.right {
+    margin-right: 93px;
+}
+
+
+.form-title {
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+    color: #FFFFFF;
+}
+.form-footer-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 200px;
+    height: 50px;
+
+    font-weight: 700;
+    line-height: calc(30 / 16);
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-left: 12px;
     
-    
+    color: #FFFFFF;
+
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: var(--accent-color);
+}
+.form-footer-email {
+    width: 358px;
+    height: 50px;
+    padding: 16px 15px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--primary-bg-cl);
+}
+.form-footer-wrap {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+
 }
 
 /* ----- portfolio page----------*/
